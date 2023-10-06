@@ -11,3 +11,5 @@ print("your clip ready!")
 from moviepy.editor import VideoFileClip
 
 VideoFileClip("cut_video.mp4").audio.write_audiofile("cut_music.mp3")
+
+print("your audio ready")
